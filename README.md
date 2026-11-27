@@ -29,3 +29,11 @@ These apps moved here from that repo in November 2026.
 
 Developed by TheTechNomad · [www.TheTechNomad.com](https://www.TheTechNomad.com) ·
 [github.com/TeddyPete](https://github.com/TeddyPete)
+
+Each app's About screen shows its name, version and license, "Developed by TheTechNomad",
+www.TheTechNomad.com and github.com/TeddyPete; its QR code and store website point to askelmer.com.
+
+## License
+
+GPL-3.0-only, see [LICENSE](LICENSE). The bundled fonts are under the SIL Open Font License
+(see each app's `fonts/` folder). The Ham Exam question pools are the public NCVEC pools.

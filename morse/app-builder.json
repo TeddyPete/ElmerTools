@@ -1,6 +1,6 @@
 {
   "package_name": "askelmer-morse",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "app_name": "Ask Elmer Morse",
   "bin_name": "askelmer-morse",
   "description": "Learn Morse the Koch way, Morse games, GPIO paddle keyer, send to your radio, CW decoder",
@@ -21,12 +21,12 @@
       "screenshots/lcd_6_decoder.png"
     ],
     "icon": "packaging/icon.png",
-    "license": "MIT",
+    "license": "GPL-3.0-only",
     "source_repo": "https://github.com/TeddyPete/ElmerTools",
     "author": {
       "github": "TeddyPete",
       "display_name": "TheTechNomad",
-      "website": "https://www.TheTechNomad.com"
+      "website": "https://askelmer.com"
     },
     "share_code": "AECW",
     "permissions": {
