@@ -88,6 +88,7 @@ class Keyboard:
         self.internal = any(_name(p).startswith("tca8418") for p in paths) or devices is not None
         self.caps = False
         self.releases: set[str] = set()   # keys that also report release (used as Morse keys)
+        self.esc_down: float | None = None   # when Esc went down (None = up)
 
     @property
     def ok(self) -> bool:
