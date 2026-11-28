@@ -1,6 +1,6 @@
 {
   "package_name": "askelmer-morse",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "app_name": "Ask Elmer Morse",
   "bin_name": "askelmer-morse",
   "description": "Learn Morse the Koch way, Morse games, GPIO paddle keyer, send to your radio, CW decoder",
