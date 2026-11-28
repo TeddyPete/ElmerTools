@@ -91,6 +91,9 @@ class App:
                 self.kb.releases = getattr(top, "morse_keys", set())
             keys = self.kb.poll(getattr(top, "poll_s", 0.1)) if self.kb else (time.sleep(0.1) or [])
             for k in keys:
+                if k.name == "exit":     # Esc held: leave the app (key spec)
+                    self.quit = True
+                    break
                 if self.stack:
                     self.dispatch(k)
                 self.dirty = True
